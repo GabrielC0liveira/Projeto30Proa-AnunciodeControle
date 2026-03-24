@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>Projeto30-Anúncio de Controle</title>
+</head>
+<body>
+    <div class="container">
+      <div class="navbar">
+        <img src="img/logo.png" class="logo">
+        <nav>
+          <ul id="listamenu">
+            <li><a href="">Controles de video game</a></li>
+            <li><a href="">VR Acessorios</a></li>
+            <li><a href="">Mídias remotas</a></li>
+            <li><a href="">Outros</a></li>
+          </ul>
+        </nav>
+        <img src="img/menu.png" class="iconemenu" onclick="togglemenu()">
+      </div>
+
+      <div class="linha">
+        <div class="coluna1">
+          <h2>PS4 V2 <br>Dualshock 4</h2>
+          <h3>Controle Wirelles para Playstation4</h3>
+          <p>(Compatível/Genérico)</p>
+          <h4>R$299,90</h4>
+          <button type="button">Compre agora <img src="img/seta.png"></button>
+        </div>
+
+        <div class="coluna2">
+          <img src="img/controle.png" class="controle">
+          <div class="corcaixa">
+            <div class="btadi">
+              <img src="img/add.png">
+              <p><small>Add ao carrinho</small></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="links">
+        <img src="img/fb.png">
+        <img src="img/ig.png">
+        <img src="img/tw.png">
+      </div>
+    </div>
+
+    <script>
+      var listamenu = document.getElementById("listamenu");
+      listamenu.style.maxHeight = "0px";
+      function togglemenu(){
+        if(listamenu.style.maxHeight == "0px")
+      {
+        listamenu.style.maxHeight = "130px"
+      }
+      else
+      {
+        listamenu.style.maxHeight = "0px"
+      }
+      }
+
+      
+    </script>
+</body>
+</html>
