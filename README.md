@@ -28,8 +28,6 @@ O projeto tem como objetivo explorar a criação de páginas promocionais modern
 - **HTML5:** estruturação da página e dos elementos do produto.
 - **CSS3:** estilização, gradientes, animações e organização do layout.
 - **JavaScript:** controle da abertura e do fechamento do menu mobile.
-- **Flexbox:** alinhamento e distribuição dos elementos.
-- **Media Queries:** adaptação da interface para telas menores.
 - **Google Fonts:** utilização da fonte Poppins.
 
 ## Aprendizados
